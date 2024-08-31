@@ -1,4 +1,7 @@
-# Workshop_1
+# Workshop_1 - Project ETL <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png" alt="Nombre de la Imagen" width="30px"/> -> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Nombre de la Imagen" width="30px"/> -> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/640px-New_Power_BI_Logo.svg.png" alt="Nombre de la Imagen" width="30px"/>
+By  <img src="https://github.com/user-attachments/assets/8348921c-93ec-405c-afb2-ed73fa7f25f6" alt="Nombre de la Imagen" width="30px"/> [Danna Salamanca](https://www.linkedin.com/in/danna-salamanca-907050259/) 
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Github_logo_svg.svg/640px-Github_logo_svg.svg.png" alt="Nombre de la Imagen" width="30px"/>
+ [D-Salamanca](https://github.com/D-Salamanca)
 
 ## Descripción
 Este proyecto consiste en recibir un archivo CSV con datos de candidatos que participaron en procesos de selección. Los datos fueron generados aleatoriamente para simular un proceso real de selección de personal. El objetivo principal fue realizar análisis detallados y manipulaciones de los datos para obtener información relevante, y finalmente crear visualizaciones interactivas que permitan una comprensión profunda de las tendencias y patrones en los procesos de contratación.
@@ -50,32 +53,65 @@ DB_PASSWORD=your_password_here
 DB_HOST=localhost
 DB_PORT=5432
 DB_DB=workshop
+```
 
-## Instalación de Dependencias, Contribuciones y Contacto
-
-### Instalación de Dependencias
-Para ejecutar los notebooks de este proyecto, necesitarás instalar las dependencias listadas en `requirements.txt`. Puedes instalarlas ejecutando el siguiente comando:
+## Instalación de Dependencias
+Para ejecutar los notebooks, primero debes instalar las dependencias listadas en `requirements.txt`. Puedes hacerlo con el siguiente comando:
 
 ```bash
 pip install -r requirements.txt
+```
+## Uso
 
+### Clonar el Repositorio
+Clona este repositorio en tu máquina local:
+
+```bash
+git clone https://github.com/D-Salamanca/workshop_1.git
+```
+
+Navegar al Directorio del Proyecto
+```bash
+cd workshop_1
+```
+Instalar las Dependencias
+```bash
+pip install -r requirements.txt
+```
+Ejecutar los Notebooks
+Abre y ejecuta los notebooks utilizando Jupyter Notebook o JupyterLab:
+
+```bash
+jupyter notebook notebook/001_pre_load.ipynb
+```
 ##Contribuciones
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
 Haz un fork de este repositorio.
-Crea una nueva rama para tu feature o bugfix:
-bash
-Copiar código
-git checkout -b nombre-de-la-rama
-Realiza tus cambios y haz commit:
-bash
-Copiar código
-git commit -m "Descripción clara de los cambios"
-Haz push a tu rama:
-bash
-Copiar código
-git push origin nombre-de-la-rama
-Crea un Pull Request en GitHub.
 
-##Contacto
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico: d.salamanca0314@gmail.com.
+Crea una nueva rama para tu feature o bugfix:
+
+```bash
+git checkout -b nombre-de-la-rama
+```
+Realiza tus cambios y haz commit:
+
+```bash
+git commit -m "Descripción clara de los cambios"
+```
+Haz push a tu rama:
+
+```bash
+git push origin nombre-de-la-rama
+```
+#### Crea un Pull Request en GitHub.
+
+---
+
+### ¡Gracias por visitar el repositorio! 
+Espero que este proyecto te sea útil. Si te ha resultado de ayuda o simplemente te ha gustado, considera darle una estrella al repositorio. 🌟
+
+### Nos encantaría recibir tus comentarios, sugerencias o contribuciones.
+
+### ¡Gracias por tu apoyo! 👋
+
